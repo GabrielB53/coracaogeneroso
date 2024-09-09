@@ -98,8 +98,7 @@ export default function Home() {
           </svg>
     
           Mato Grosso do Sul</div>
-        <p>Um dos biomas mais importantes do mundo conta com a mobilização coletiva para resistir. O SOS Pantanal direciona
-          esse apoio, fortaleça esse movimento e 
+        <p>Um dos biomas mais importantes do mundo conta com a mobilização coletiva para resistir. Fortaleça esse movimento e 
         </p>
         <button class="botao">Conheça a iniciativa</button>
       </div>
@@ -161,6 +160,8 @@ O App Coração Generoso permite que pessoas físicas façam doações únicas o
 
 <br />
 <br />
+
+<img className="app" src="app.jpeg" alt="AppMobile" />
 
 
 <button class="botao2">Conheça o Aplicativo</button>

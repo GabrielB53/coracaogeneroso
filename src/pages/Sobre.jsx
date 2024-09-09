@@ -40,7 +40,7 @@ export default function Sobre() {
       </nav>
   </div>
 </header>
-<section className="about">
+<section className="sobre">
         <div className="container">
             <h2>Sobre Nós</h2>
             <p>Com o apoio de uma rede robusta de pontos de coleta, recebemos diversos tipos de doações todos os dias, para podermos doar para quem mais necessita deles. Seja qual for a causa que te toca ou a região que quer apoiar, aqui você vai sempre encontrar pessoas de bem que querem ajudar o próximo, pode confiar! E, claro, aqui você sempre será um herói .</p>
@@ -52,32 +52,37 @@ Quer saber qual iniciativa dá match com você e fazer parte dessa rede de benfe
             <p>Nossa Equipe vem tendo um aumentando muito rapido assim podemos ajudar cada vez mais pesssoas que precisam e necessitam desssas doaçoes. Também as pessoas que fazem essas doações esta cada vez mais aumentando em uma escala cada vez maior, isso ajuda e muito para que possamos aumentar mais nossa rede de pontos de coleta.</p>
         </div>
     </section>
+    <img className="doacao1" src="doacao.jpeg" alt="doacao" />
 
-    <section className="team">
+    <img className="doacao2" src="doacao2.jpeg" alt="doacao2" />
+
+    <img className="doacao3" src="doacao3.jpeg" alt="doacao3" />
+
+    <section className="time">
         <div className="container">
             <h2>Nosso Time</h2>
-            <div className="team-members">
-                <div className="member">
+            <div className="membros-equipe">
+                <div className="membros">
                     <h3>Arthur Martins</h3>
-                    <p>Programador Web</p>
+                    <p>Programador Front End</p>
                 </div>
-                <div className="member">
+                <div className="membros">
                     <h3>Pedro Henrique</h3>
-                    <p>Gerente</p>
+                    <p>Gerente | Programador Back End</p>
                 </div>
-                <div className="member">
+                <div className="membros">
                     <h3>Nicolly Costa</h3>
                     <p>Figma Designer</p>
                 </div>
-                <div className="member">
+                <div className="membros">
                     <h3>Isabella Marques</h3>
-                    <p>product owner</p>
+                    <p>Product Owner</p>
                 </div>
-                <div className="member">
+                <div className="membros">
                     <h3>Guilherme Felix</h3>
                     <p>Funcionario</p>
                 </div>
-                <div className="member">
+                <div className="membros">
                     <h3>Rafaela Costa</h3>
                     <p>Figma Designer</p>
                 </div>

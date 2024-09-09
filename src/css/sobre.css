@@ -1,4 +1,4 @@
-/* Container centralizado */
+
 .container {
     position: relative;
     width: 90%;
@@ -7,43 +7,41 @@
 }
 
 
-/* Seção Sobre Nós */
-.about {
+.sobre {
     padding: 40px 0;
     background-color: #fff;
 }
 
-.about h2 {
+.sobre h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #FC2D36;
 }
 
-.about p {
+.sobre p {
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
-/* Seção Nosso Time */
-.team {
+.time {
     padding: 40px 0;
     background-color: #FFB9B9;
 }
 
-.team h2 {
+.membros h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.team-members {
+.membros-equipe{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
 
-.member {
+.membros {
     flex: 1;
     min-width: 250px;
     text-align: center;
@@ -53,23 +51,47 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.member img {
+.membros img {
     max-width: 100%;
     border-radius: 50%;
     margin-bottom: 15px;
 }
 
-.member h3 {
+.membros h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-.member p {
+.membros p {
     font-size: 1.1rem;
     color: #777;
 }
+.doacao1 {
+    border-radius: 40px;
+    margin-right: 5px;
+}
+.doacao2 {
+    border-radius: 40px;
+}
 
-/* Rodapé */
+.doacao3 {
+    border-radius: 40px;
+    height: 350px;
+    width: 350px;
+    margin-left: 5px;
+}
+
+
+.doacao1 {
+    max-width: 100%;
+    height: auto;
+}
+.doacao2 {
+    max-width: 100%;
+    height: auto;
+}
+
+
 footer {
     background-color: #333;
     color: #fff;
@@ -82,9 +104,9 @@ footer p {
     font-size: 1rem;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
-    .team-members {
+    .membros-equipe {
         flex-direction: column;
         gap: 20px;
     }
