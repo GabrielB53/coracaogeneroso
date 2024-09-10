@@ -52,12 +52,20 @@ Quer saber qual iniciativa dá match com você e fazer parte dessa rede de benfe
             <p>Nossa Equipe vem tendo um aumentando muito rapido assim podemos ajudar cada vez mais pesssoas que precisam e necessitam desssas doaçoes. Também as pessoas que fazem essas doações esta cada vez mais aumentando em uma escala cada vez maior, isso ajuda e muito para que possamos aumentar mais nossa rede de pontos de coleta.</p>
         </div>
     </section>
-    <img className="doacao1" src="doacao.jpeg" alt="doacao" />
+    
 
-    <img className="doacao2" src="doacao2.jpeg" alt="doacao2" />
-
-    <img className="doacao3" src="doacao3.jpeg" alt="doacao3" />
-
+    <div className="imagem">
+<img className="doacao1" src="doacao.jpeg" alt="doacao" />
+   
+   <div className="texto-doacao">
+   <h1>Onde enviamos as doações?</h1>
+    <p>Nossa equipe junto com os pontos de coleta, nos organizamos para que todos <br />  que  necessitam dessas e de muitas doações 
+      recebam elas de forma rapida e<br /> segura para que ninguém fique sem nada. Todos da equipe e colaboradores <br />  sabem que é muito 
+      importante que tudo ocorra como planejado e sem <br /> contra-tempos  para ajudar o maximo de pessoas.
+    </p>
+    </div>
+    </div>
+    
     <section className="time">
         <div className="container">
             <h2>Nosso Time</h2>
