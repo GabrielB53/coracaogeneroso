@@ -22,6 +22,29 @@
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
+.container2{
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.sobre2 {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.sobre2 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FC2D36;
+}
+
+.sobre2 p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
 
 .time {
     padding: 40px 0;
@@ -76,21 +99,25 @@
     margin-bottom: 10px;
     position: relative;
 }
-.imagem {
+.doacao1 {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-.imagem img {   
+.doacao1 {   
     border-radius: 40px;
+}
+.texto-doacao{
+    text-align: center;
+    padding: 50px;
 }
 
 @media (max-width: 768px) {
-    .imagem {
+    .container {
         flex-direction: column;
     }
 
-    .imagem img {
+    .container img {
         width: 90%;
     }
 }

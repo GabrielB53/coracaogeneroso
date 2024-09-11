@@ -129,7 +129,7 @@ export default function Home() {
         <br />
         <br />
 
-        <p class="doador3">PROPORCIONE UMA <br /> <strong> EXPERIÊNCIA INCRÍVEL <br /> </strong> PARA O SEU   <strong> DOADOR  </strong></p>
+        <p class="doador3">BAIXE JÁ O NOSSO <br /> <strong> INCRIVEL APP <br /> </strong> PARA DOAR AINDA  <strong> MAIS  </strong></p>
         
         <br />
         <br />

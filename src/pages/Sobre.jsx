@@ -48,13 +48,11 @@ export default function Sobre() {
             <p>Nossa Rede, possui uma grande rede de pontos de coleta, e principalmente, a solidariedade das milhões de pessoas que formam nossa audiência e, verdadeiramente, se importam.
 
 Quer saber qual iniciativa dá match com você e fazer parte dessa rede de benfeitores, composta por centenas de organizações e movimentos sociais que lutam por um Brasil mais justo, todos os dias? Clique aqui, escolha uma iniciativa e doe. É simples, seguro, poderoso e prazeroso!</p>
-            <h2>Nossa Equipe</h2>
-            <p>Nossa Equipe vem tendo um aumentando muito rapido assim podemos ajudar cada vez mais pesssoas que precisam e necessitam desssas doaçoes. Também as pessoas que fazem essas doações esta cada vez mais aumentando em uma escala cada vez maior, isso ajuda e muito para que possamos aumentar mais nossa rede de pontos de coleta.</p>
         </div>
     </section>
     
 
-    <div className="imagem">
+    <div className="container">
 <img className="doacao1" src="doacao.jpeg" alt="doacao" />
    
    <div className="texto-doacao">
@@ -65,6 +63,12 @@ Quer saber qual iniciativa dá match com você e fazer parte dessa rede de benfe
     </p>
     </div>
     </div>
+    <section className="sobre2">
+        <div className="container2">
+            <h2>Nossa Equipe</h2>
+            <p>Nossa Equipe vem tendo um aumentando muito rapido assim podemos ajudar cada vez mais pesssoas que precisam e necessitam desssas doaçoes. Também as pessoas que fazem essas doações esta cada vez mais aumentando em uma escala cada vez maior, isso ajuda e muito para que possamos aumentar mais nossa rede de pontos de coleta.</p>
+        </div>
+    </section>
     
     <section className="time">
         <div className="container">
