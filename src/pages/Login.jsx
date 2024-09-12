@@ -40,57 +40,39 @@ export default function Login() {
   </nav>
 </div>
 </header>
-<main>
+ <div className="body">
+        <div className="login-box">
+            <h2 className="h2">Login</h2>
+            <form action="#" method="POST">
+                <div className="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+                </div>
+                <div className="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required />
+                </div>
 
-<section>
-<div className="caixa">
-  <div className="form-value">
-    <form action="#">
-      <h2>Login</h2>
-      <div className="input-box">
-        <ion-icon name="mail-outline"></ion-icon>
-        <input type="email" required />
-        <label htmlFor="#">Email</label>
-      </div>
-      <div className="input-box">
-        <ion-icon name="lock-closed-outline"></ion-icon>
-        <input type="password" required />
-        <label htmlFor="#">Senha</label>
-      </div>
-      <div className="senha">
-        <label htmlFor="#">
-          <input type="checkbox" />
-          Lembrar senha
-        </label>
+                <Link to={"/Home"}>
+                <button type="submit" className="btn">Entrar</button>
+                </Link>
+                
+                <div className="links">
 
-        <Link to={"/EsqueciSenha"}>
-        <a>Esqueceu a Senha?</a>
-          </Link>
-      
-      </div>
-      <div className="logar">
-        <p>Não tem uma conta?
+                <Link to={"/EsqueciSenha"}>
+                <p><a href="#">Esqueci minha senha</a></p>
+                    </Link>
 
-        <Link to={"/Cadastro"}>
-          
-        <a>Cadastre-se</a>
-          </Link>
-        </p>
-      </div>
-    </form>
-    <Link to={"/Home"}>
-    <button>Log In</button>
-          </Link>
+                    
 
-    
-        
-    
-      
-
-  </div>
-</div>
-</section>
-</main>
+                    <Link to={"/Cadastro"}>
+                    <p><a href="#">Não tem conta? Cadastre-se</a></p>
+                    </Link>
+                   
+                </div>
+            </form>
+        </div>
+    </div>
 <footer className="footer">
 <div className="container">
  <div className="linha">
@@ -102,7 +84,7 @@ export default function Login() {
        <li><a href="#">Politica de Privacidade</a></li>
      </ul>
    </div>
-   <div class="footer-coluna">
+   <div className="footer-coluna">
              <h4>Precisa de Ajuda</h4>
              <ul>
                <li><a href="#">FAQ</a></li>

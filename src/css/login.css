@@ -47,112 +47,86 @@
   .pagina1{
       top: 200px;
   }
-   
-  section {
+  .body {
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
-      width: 100%;
-      background-color: #fff;
-      background-position: center;
-      background-size: cover;
+      height: 100vh;
+      background-color: #f4f4f4;
   }
-  .caixa {
-      
-      width: 400px;
-      height: 450px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #FC2D36;
-      border: 2px solid #000;
-      border-radius: 10px;
-  }
-  h2 {
-      font-size: 2rem;
-      color: #fff;
-      text-align: center;
-  }
-  .input-box {
-      position: relative;
-      margin: 30px 0;
-      width: 320px;
-      border-bottom: 2px solid #fff;
-  }
-  .input-box label {
-      position: absolute;
-      top: 50%;
-      left: 5px;
-      color: #fff;
-      transform: translateY(-50%);
-      pointer-events: none;
-      font-size: 1rem;
-      transition: 0.05s;
-  }
-  .input-box input {
-      width: 100%;
-      height: 25px;
-      background: transparent;
-      outline: none;
-      border: none;
-      font-size: 1em;
-      padding: 0 35px 0 5px;
-      color: #fff;
-  }
-  input:focus ~ label,
-  input:valid ~ label{
-      top: -10px;
-  }
-  .input-box ion-icon {
-      position: absolute;
-      right: 8px;
-      color: #fff;
-      font-size: 1.2em;
-  }
-  .senha {
-      margin: -15px 0 15px;
-      font-size: 0.9em;
-      color: #fff;
-      display: flex;
-      justify-content: space-between;
-  }
-  .senha label input {
-      margin-right: 3px;
-  }
-  .senha a:hover {
-      color: #fff;
-  }
-  button {
-      width: 100%;
-      height: 50px;
-      border-radius: 10px 10px 10px 10px;
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin-top: 20px;
-      background: #fff;
-      color: #fff;
-  }
-  button:hover {
-      background: #fff;
-  }
-  .logar {
-      font-size: 0.8rem;
-      color: #fff;
-      margin-top: 20px;
-  }
-  .logar a:hover {
-      color: #000;
-  }
-  
-  @media(max-width: 767px){
-    .caixa{
-      width: auto;
-      height: auto;
-      
-  }
-  }
-  
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #FC2D36;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, rgb(235, 1, 1), rgb(56, 0, 224));
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .login-box {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+        padding: 8px;
+    }
+}
   
   body, ul, li {
     margin: 0;
