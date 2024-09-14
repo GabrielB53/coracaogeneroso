@@ -24,8 +24,30 @@ export default function Perfil() {
             <p>UsuarioGeneroso@gmail.com</p>
             <h2>CPF</h2>
             <p>999.999.999 - 99</p>
+            <h2>Data De Nascimento</h2>
+            <p>00/00/0000</p>
         </div>
 
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
                <br/>
                <br/>
                <br/>

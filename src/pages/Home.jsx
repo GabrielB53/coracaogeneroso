@@ -8,7 +8,7 @@ export default function Home() {
 <div>
   <header>
     <div class="comeco">
-      <h1 class="titulo">CORACAO GENEROSO</h1>
+      <h1 class="titulo">CORAÇÃO GENEROSO</h1>
     </div>
     <div class="menu-sanduiche">
       <input type="checkbox" id="menu-toggle" />
@@ -50,56 +50,8 @@ export default function Home() {
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
           </svg>
     
-          Rio Grande do Sul</div>
-        <p>Estamos atuando incansavelmente para apoiar as vítimas das chuvas no estado do Rio Grande do Sul.</p>
-        <button class="botao">Conheça a iniciativa</button>
-      </div>
-    
-      <div class="coleta">
-        <div class="card-titulo2">Ponto de Coleta </div>
-    
-        <div class="card-subtitulo2">
-    
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="map" viewBox="0 0 16 16">
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-          </svg>
-    
-          São Paulo</div>
-        <p>Faça parte dessa campanha nacional pelos 33 milhões de brasileiros e brasileiras com fome, ajude elas e </p>
-        <button class="botao">Conheça a iniciativa</button>
-      </div>
-    
-    
-      <div class="coleta">
-        <div class="card-titulo2">Ponto de Coleta </div>
-    
-        <div class="card-subtitulo2">
-    
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="map" viewBox="0 0 16 16">
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-          </svg>
-    
-          Rio de Janeiro</div>
-        <p>A afroReggae busca transformação social pela arte e cultura, criando pontes entre favela e asfalto.</p>
-        <button class="botao">Conheça a iniciativa</button>
-      </div>
-    
-    
-      <div class="coleta">
-        <div class="card-titulo2">Ponto de Coleta </div>
-    
-        <div class="card-subtitulo2">
-    
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="map" viewBox="0 0 16 16">
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-          </svg>
-    
-          Mato Grosso do Sul</div>
-        <p>Um dos biomas mais importantes do mundo conta com a mobilização coletiva para resistir. Fortaleça esse movimento e 
-        </p>
+          BARUERI</div>
+        <p>Estamos atuando incansavelmente para apoiar moradores que precisam de doações em Barueri.</p>
         <button class="botao">Conheça a iniciativa</button>
       </div>
     </div>
@@ -121,9 +73,9 @@ export default function Home() {
     <div class="div2">
       <p class="doador2">PONTOS DE  <strong> COLETA </strong> </p>
       <p class="p1">
-        Os pontos de coleta de todo o Estado recebem doações como utensílios, movéis e até dinheiro para ajudar pessoas que realmente necessitam.
-         Em cada ponto de coleta, arrecada movéis, itens de higiene pessoal, utensílios, e dinheiro.<br />
-          As entregas poderão ser feitas nas unidades da capital como, Grande São Paulo, Baixada Santista, Litoral Norte,interior e muito mais.
+        O ponto de coleta de Barueri recebem doações como utensílios, movéis e até dinheiro para ajudar pessoas que realmente necessitam.
+         O ponto de coleta, arrecada movéis, itens de higiene pessoal, utensílios, e dinheiro.<br />
+          As entregas poderão ser feitas na unidade de Barueri.
         </p>
 
         <br />
@@ -146,7 +98,7 @@ export default function Home() {
         <br />
 <p class="p1">
 O App Coração Generoso permite que pessoas físicas façam doações únicas ou mensais para ajudar pessoas que necessitam de doações no país.
- Basta escolher o ponto de coleta e escolher sua causa! 
+ Basta clicar no ponto de coleta e doar! 
  <br />
  <br />
  A cada doação você tem mais chance de ficar em primeiro lugar do nosso ranking de doadores. E pode concorrer a varios premios ajudando milhares de pessoas.

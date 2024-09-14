@@ -43,11 +43,11 @@ export default function Sobre() {
 <section className="sobre">
         <div className="container">
             <h2>Sobre Nós</h2>
-            <p>Com o apoio de uma rede robusta de pontos de coleta, recebemos diversos tipos de doações todos os dias, para podermos doar para quem mais necessita deles. Seja qual for a causa que te toca ou a região que quer apoiar, aqui você vai sempre encontrar pessoas de bem que querem ajudar o próximo, pode confiar! E, claro, aqui você sempre será um herói .</p>
+            <p>Com o apoio de pontos de coleta, recebemos diversos tipos de doações todos os dias, para podermos doar para quem mais necessita deles. Seja qual for a causa que te toca que você quer apoiar, aqui você vai sempre encontrar pessoas de bem que querem ajudar o próximo, pode confiar! E, claro, aqui você sempre será um herói .</p>
             <h2>Nossa Potencia</h2>
-            <p>Nossa Rede, possui uma grande rede de pontos de coleta, e principalmente, a solidariedade das milhões de pessoas que formam nossa audiência e, verdadeiramente, se importam.
+            <p>Nossa Rede, possui pontos de coleta, e principalmente, a solidariedade das milhões de pessoas que formam nossa audiência e, verdadeiramente, se importam.
 
-Quer saber qual iniciativa dá match com você e fazer parte dessa rede de benfeitores, composta por centenas de organizações e movimentos sociais que lutam por um Brasil mais justo, todos os dias? Clique aqui, escolha uma iniciativa e doe. É simples, seguro, poderoso e prazeroso!</p>
+Quer saber qual iniciativa dá match com você e fazer parte dessa rede de benfeitores, composta por centenas de organizações e movimentos sociais que lutam por um Brasil mais justo, todos os dias? É simples escolha doar e fazer o bem. É simples, seguro, poderoso e prazeroso!</p>
         </div>
     </section>
     
@@ -95,7 +95,7 @@ Quer saber qual iniciativa dá match com você e fazer parte dessa rede de benfe
                     <p>Funcionario</p>
                 </div>
                 <div className="membros">
-                    <h3>Rafaela Costa</h3>
+                    <h3>Rafaela Kolle</h3>
                     <p>Figma Designer</p>
                 </div>
             </div>
