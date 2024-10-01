@@ -22,7 +22,10 @@ export default function Suporte() {
       </label>
       <nav class="menu">
           <ul>
-              <li><a href="C:\SiteDoacao\index.html">Home</a></li>
+          <Link to={"/Home"}>
+            Home
+            </Link>
+            
               <Link to={"/Sobre"}>
               Sobre
               </Link>
