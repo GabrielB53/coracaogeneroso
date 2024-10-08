@@ -74,17 +74,6 @@
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-.input-sexo {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-
-  display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
 .btn {
     width: 100%;
     padding: 10px;

@@ -231,22 +231,10 @@ export default function Cadastro() {
           <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
         </div>
         
-        <div className="input-sexo" style={{ flex: '1 1 45%' }}>
-  <label htmlFor="sexo">Sexo:</label>
-  <div style={{ display: 'flex', gap: '10px' }}>
-    <div>
-      <br />
-      <input type="checkbox" id="masculino" name="sexo" value="Masculino" required style={{ marginRight: '10px' }} />
-      <label htmlFor="masculino">Masculino</label>
-    </div>
-    <div>
-      <br />
-      <input type="checkbox" id="feminino" name="sexo" value="Feminino" required style={{ marginRight: '10px' }} />
-      <label htmlFor="feminino">Feminino</label>
-    </div>
-  </div>
-</div>
-
+        <div className="input-grupo" style={{ flex: '1 1 45%' }}>
+          <label htmlFor="sexo">Sexo:</label>
+          <input type="text" id="sexo" name="sexo" required />
+        </div>
         <div className="input-grupo" style={{ flex: '1 1 45%' }}>
           <label htmlFor="idade">Data de Nascimento:</label>
           <input type="date" id="data_nasci" name="idade" required />
