@@ -17,7 +17,7 @@ const validationSchema = yup.object({
         .required('Senha necessária'),
 });
 
-export default function Login() {
+export default function LoginAdm() {
     const navigate = useNavigate();
 
     const formik = useFormik({
