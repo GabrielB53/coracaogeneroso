@@ -74,7 +74,10 @@ export default function Login() {
 
                         <div className="links">
                             <Link to="/EsqueciSenha">
-                                <p><a href="#">Esqueci minha senha</a></p>
+                                <p><a href="#">Esqueci minha senha.</a></p>
+                            </Link>
+                            <Link to="/Cadastro">
+                                <p><a href="#">Não possui cadastro? Cadastrar</a></p>
                             </Link>
                         
                         </div>
