@@ -1,0 +1,250 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 24px; 
+  text-align: center;
+  margin: 20px 0px 10px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .titulo {
+      font-size: 2vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titulo {
+      font-size: 2vw; 
+  }
+}
+
+header {
+  background-color: #FC2D36;
+  margin-top: 0; /* Remove espaço acima do header */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 5px;
+  margin-left: 32px;
+}
+
+.nav-list.active {
+  transform: translateX();
+}
+
+.pagina1 {
+  top: 200px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #FC2D36;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, rgb(235, 1, 1), rgb(56, 0, 224));
+}
+
+.links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .login-box {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    padding: 8px;
+  }
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos do menu sanduíche */
+.menu-sanduiche {
+  position: relative;
+}
+
+/* Checkbox que controla o menu (escondido) */
+#menu-toggle {
+  display: none;
+}
+
+/* Ícone do menu sanduíche */
+.menu-icon {
+  display: block;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  position: relative;
+  margin: 10px;
+}
+
+.menu-icon .bar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Estilos do menu */
+.menu {
+  display: none;
+  position: relative;
+  top: -10px;
+  right: 10px;
+  color: #fff;
+  background-color: #FC2D36;
+  width: auto;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.menu ul {
+  padding: 10px;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu li:last-child {
+  margin-bottom: 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #b8b6b6;
+}
+
+#menu-toggle:checked + .menu-icon + .menu {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    flex-direction: row;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .menu li {
+    margin: 0;
+  }
+
+  .menu a {
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 20px;
+  }
+
+  .menu a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+}

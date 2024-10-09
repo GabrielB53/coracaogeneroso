@@ -1,47 +1,14 @@
 
-
-
-
 import { Link } from "react-router-dom"
-import '../css/suporte.css'
+import '../../components/css/suporte.css'
+import Header from '../../components/Header/Header'
+import Footer from "../../components/Footer/Footer";
 
 export default function Suporte() {
     return (
 <>
 <div>
-<header>
-    <div class="comeco">
-      <h1 class="titulo">CORACAO GENEROSO</h1>
-    </div>
-    <div class="menu-sanduiche">
-      <input type="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" class="menu-icon">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-      </label>
-      <nav class="menu">
-          <ul>
-          <Link to={"/Home"}>
-            Home
-            </Link>
-            
-              <Link to={"/Sobre"}>
-              Sobre
-              </Link>
-
-              <Link to={"/Perfil"}>
-              Perfil
-              </Link>
-
-              <Link to={"/Login"}>
-              Entrar
-              </Link>
-             
-          </ul>
-      </nav>
-  </div>
-</header>
+<Header/>
 <br />
 <div>
         <h1 className="h1">Suporte</h1>

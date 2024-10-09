@@ -1,4 +1,8 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   a{
     text-decoration: none;
     color: #fff;
@@ -8,6 +12,19 @@
     margin: 0 auto;
     padding: 20px;
   }
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-section {
+  max-width: 600px; /* Limita a largura do formulário */
+  width: 100%; 
+}
+
   
   .titulo {
     font-size: 24px; 
@@ -31,31 +48,18 @@
   header {
     background-color: #FC2D36;
   }
-  .nav-list {
-      list-style: none;
-      display: flex;
-  }
-  .nav-list li{
-      letter-spacing: 5px;
-      margin-left: 32px;
-     
-  }
-   
-  .nav-list.active {
-      transform: translateX();
-  }
-  .pagina1{
-      top: 200px;
-  }
-  .body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f4f4f4;
-  }
 
-.login-box {
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+
+    
+}
+
+.registro-box {
     background-color: white;
     padding: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -67,23 +71,22 @@
     margin-bottom: 20px;
 }
 
-.input-group {
+.input-grupo {
     margin-bottom: 15px;
 }
 
-.input-group label {
+.input-grupo label {
     display: block;
     font-size: 14px;
     margin-bottom: 5px;
 }
 
-.input-group input {
+.input-grupo input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-
 .btn {
     width: 100%;
     padding: 10px;
@@ -115,7 +118,7 @@
 
 /* Responsividade */
 @media (max-width: 600px) {
-    .login-box {
+    .register-box {
         padding: 20px;
     }
 
@@ -127,7 +130,7 @@
         padding: 8px;
     }
 }
-  
+
   body, ul, li {
     margin: 0;
     padding: 0;

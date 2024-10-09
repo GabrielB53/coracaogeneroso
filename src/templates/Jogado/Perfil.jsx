@@ -1,8 +1,6 @@
-
-
 import { Link } from "react-router-dom"
-import '../css/perfil.css'
-
+import '../../components/css/perfil.css';
+import img from '../../assets/images/fotoperfil.png'
 export default function Perfil() {
     return (
 
@@ -11,7 +9,7 @@ export default function Perfil() {
 <div>
 <div class="profile-container">
         <div class="profile-header">
-            <img src="fotoperfil.png" alt="Foto do perfil" class="profile-image" />
+            <img src={img} alt="Foto do perfil" class="profile-image" />
             <h1 class="profile-name">Usuario Generoso</h1>
             <p class="profile-bio">Doador Semanal | Generoso | Apaixonado em Ajudar</p>
         </div>
@@ -27,24 +25,6 @@ export default function Perfil() {
             <h2>Data De Nascimento</h2>
             <p>00/00/0000</p>
         </div>
-
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
-               <br/>
                <br/>
                <br/>
                <br/>
@@ -55,7 +35,7 @@ export default function Perfil() {
                
         <div class="profile-footer">
             
-        <Link to={"/Home"}>
+        <Link to={"/"}>
         <a class="social-link">Voltar</a>
                </Link>
            
